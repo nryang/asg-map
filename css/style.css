@@ -1,0 +1,73 @@
+/* Global styles */
+
+body {
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+/* Map styles */
+
+#map_projects {
+	width: 960px;
+	height: 600px;
+}
+
+/* Tooltip styles */
+
+div.tooltip {
+	border: 1px solid #999;
+	background-color: #f5f5f5;
+	padding: 5px;
+	width: 250px;
+	font-size: 12px;
+	position: absolute;
+}
+
+.tooltip img.category-icon {
+	padding-right: 5px;
+	vertical-align: middle;
+}
+
+.tooltip h1 {
+	font-size: 16px;
+}
+
+.tooltip .tooltip-image {
+	float: left;
+	width: 100px;
+}
+
+.tooltip .tooltip-body {
+	float: right;
+	width: 145px;
+	padding-left: 5px;
+}
+
+/* Legend styles */
+
+div.map-legend {
+	padding: 5px;
+}
+
+.map-legend .map-legend-ui {
+	background-color: #fff;
+	border: 1px solid #222;
+	-moz-box-shadow: 2px 2px 3px #222;
+	-webkit-box-shadow: 2px 2px 3px #222;
+	box-shadow: 2px 2px 3px #222;
+}
+
+.map-legend .map-legend-text {
+	font-size: 12px;
+	padding: 5px;
+}
+
+.map-legend div.legend-heading {
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.map-legend img.category-icon {
+	vertical-align: middle;
+}
